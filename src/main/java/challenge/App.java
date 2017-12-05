@@ -17,9 +17,10 @@ public class App
     {
         System.out.println( "Hello World!" );
         String myFile = "C:\\Temp\\file.csv";
-        readTheFile(myFile);
+       // readTheFile(myFile);
     }
 
+    /*
     private static void readTheFile(String fileFullPath)
     {
 
@@ -50,6 +51,7 @@ public class App
             // log error
         }
     }
+    */
 
     /*
     private void readTheFileLambda(String fileFullPath)
