@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="challenge.AppTest" time="0.017" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="challenge.AppTest" time="0.015" errors="1" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="challenge.AppTest" name="initializationError" time="0.017">
+  <testcase classname="challenge.AppTest" name="initializationError" time="0.015">
     <error message="No public static parameters method on class challenge.AppTest" type="java.lang.Exception">java.lang.Exception: No public static parameters method on class challenge.AppTest
 	at org.junit.runners.Parameterized.getParametersMethod(Parameterized.java:299)
 	at org.junit.runners.Parameterized.&lt;init&gt;(Parameterized.java:246)

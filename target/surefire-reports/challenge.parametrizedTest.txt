@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: challenge.parametrizedTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
 firstTest[0:Operand1=1, operand2=1, operation=+, expectedresult=2](challenge.parametrizedTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.IllegalArgumentException: wrong number of arguments
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -42,7 +42,7 @@ java.lang.IllegalArgumentException: wrong number of arguments
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-firstTest[1:Operand1=2, operand2=3, operation=*, expectedresult=6](challenge.parametrizedTest)  Time elapsed: 0 sec  <<< ERROR!
+firstTest[1:Operand1=2, operand2=3, operation=*, expectedresult=6](challenge.parametrizedTest)  Time elapsed: 0.016 sec  <<< ERROR!
 java.lang.IllegalArgumentException: wrong number of arguments
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)

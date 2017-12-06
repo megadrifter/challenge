@@ -30,7 +30,7 @@ public class parametrizedTest
         // Приготовить список
         List<Object[]> dataList = new ArrayList<>();
  /**/
-        System.out.println("Test parameters:");
+        System.out.println("Test data:");
         // открыть и считать строки
         try (BufferedReader reader = new BufferedReader(
                                        new InputStreamReader(
@@ -41,13 +41,6 @@ public class parametrizedTest
             {
                 // разбиваю на элементы
                 Object[] myVarsArray = line.split(";");
-                ///// преобразовать из стрингов в инт и чар?
-                //myVarsArray[0] = Integer.parseInt(myVarsArray[0].toString());
-                //myVarsArray[1] = Integer.parseInt(myVarsArray[1].toString());
-                //myVarsArray[2] = (char)myVarsArray[2];
-                //myVarsArray[3] = Integer.parseInt(myVarsArray[3].toString());
-
-                /////
                 for (Object x: myVarsArray)
                 {
                     System.out.print(x.toString() + "; ");
@@ -74,7 +67,6 @@ public class parametrizedTest
         dataList.add(new Object[] {4,5,'/',6});
         dataList.add(new Object[] {7,8,'+',9});
 */
-        System.out.println("return dataList");
         return dataList;
     }
 
@@ -91,7 +83,6 @@ public class parametrizedTest
         this.operand2 = operand2;
         this.operation = operation;
         this.expected = expected;
-        System.out.println("Constructor");
         System.out.println(operand1);
         System.out.println(operand2);
         System.out.println(operation);
@@ -104,48 +95,10 @@ public class parametrizedTest
     {
         // пробую вывести на экран
         // java.lang.IllegalArgumentException: wrong number of arguments
-        System.out.println("Test");
         System.out.println(operand1);
         System.out.println(operand2);
         System.out.println(operation);
         System.out.println(expected);
-
-        /*
-        // по-хорошему, проверить, что на входе допустимые символы
-        result = doMath(operand1,operand2,operation);
-        assertEquals(expected, result);
-
-        */
-
     }
-
-    // вспомогательная функция
-    private int doMath(int operand1, int operand2, char operation)
-    {
-        int r=0;
-        switch (operation)
-        {
-            case '+':
-                r = operand1 + operand2;
-                break;
-
-            case '-':
-                r = operand1 - operand2;
-                break;
-
-            case '*':
-                r = operand1 * operand2;
-                break;
-
-            case '/':
-                r = operand1 / operand2;
-                break;
-
-            default:
-                System.out.println("not valid operation");
-        }
-        return r;
-}
-
 
 }

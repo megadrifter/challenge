@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: challenge.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.11 sec <<< FAILURE!
-initializationError(challenge.AppTest)  Time elapsed: 0.017 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.14 sec <<< FAILURE!
+initializationError(challenge.AppTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.Exception: No public static parameters method on class challenge.AppTest
 	at org.junit.runners.Parameterized.getParametersMethod(Parameterized.java:299)
 	at org.junit.runners.Parameterized.<init>(Parameterized.java:246)
