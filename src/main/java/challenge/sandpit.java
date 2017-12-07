@@ -1,4 +1,4 @@
-package challenge;
+package challenge;      // не соответствует рекомендации (напр., com.github.megadrifter.challenge)
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -5,8 +5,10 @@
  *
  * @author Andrey Sentsov
  */
-package challenge;
+package challenge;      // не соответствует рекомендации (напр., com.github.megadrifter.challenge)
 
+import io.qameta.allure.Description;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -31,7 +33,7 @@ public class OperationTest {
     /* Класс проводит юнит тест на основе данных в файле, путь к которому в нём
      жестко прописан. Файл должен лежать в ресурсах теста и называться file.csv */
 
-    // Все комментарии приведены для себя на время разработки
+    // Многие комментарии приведены для себя на время разработки
 
     // сначала переменные
     private String operand1;
@@ -50,7 +52,7 @@ public class OperationTest {
 
     // потом методы
     // параметры для параметризированного теста и заголовок
-    @Parameterized.Parameters(name = "{index}: Проверка операции {0} {2} {1} = {3}")
+    @Parameterized.Parameters(name = "Строка {index}: Проверка операции {0} {2} {1} = {3}")
     public static Iterable<Object[]> dataForTest() {
         String myFile = "src\\test\\resources\\file.csv"; // путь к файлу
         List<Object[]> dataList = new ArrayList<>();      // Список с данными
@@ -82,6 +84,8 @@ public class OperationTest {
     }
 
     // потом сам тест
+    //@DisplayName("Тест арифметических действий, запротоколированных в файле " +
+    //        "Строка {index}: Проверка операции {0} {2} {1} = {3}")
     @Test
     public void firstTest() {
         /* входные данные сразу преобразовать в int. Нужна ли проверка, что там
@@ -90,7 +94,8 @@ public class OperationTest {
         int intOperand2 = Integer.parseInt(operand2);
         int intExpected = Integer.parseInt(expected);
 
-        assertEquals(intExpected,doOperation(intOperand1,intOperand2,operation));
+        assertEquals(intExpected,
+                doOperation(intOperand1, intOperand2, operation));
     }
 
     /**
