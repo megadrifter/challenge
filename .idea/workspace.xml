@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a19f1a6-e939-4176-af21-fb80c2b4e50d" name="Default" comment="Start point after first piece of success.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/App.java" afterPath="$PROJECT_DIR$/src/main/java/challenge/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/OperationTest.java" afterPath="$PROJECT_DIR$/src/test/java/challenge/OperationTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/ParametrizedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-challenge.AppTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-challenge.parametrizedTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/challenge.AppTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/challenge.parametrizedTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/challenge/parametrizedTest.class" afterPath="$PROJECT_DIR$/target/test-classes/challenge/parametrizedTest.class" />
-    </list>
+    <list default="true" id="1a19f1a6-e939-4176-af21-fb80c2b4e50d" name="Default" comment="Start point after first piece of success." />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -518,7 +503,7 @@
       <workItem from="1512559025175" duration="1577000" />
       <workItem from="1512560741214" duration="52000" />
       <workItem from="1512561806844" duration="671000" />
-      <workItem from="1512638594392" duration="8955000" />
+      <workItem from="1512638594392" duration="9543000" />
     </task>
     <servers />
   </component>
@@ -555,7 +540,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42657000" />
+    <option name="totallyTimeSpent" value="43245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

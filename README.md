@@ -1,13 +1,29 @@
 # challenge
-Дано:
 Дан файл вида: 
-operand1;operand2;operation;result
-operand1;operand2;operation;result
-operand1;operand2;operation;result
-operand1;operand2;operation;result
+---
+>operand1;operand2;operation;result
+>operand1;operand2;operation;result
+>operand1;operand2;operation;result
+>operand1;operand2;operation;result
+---
 каждая строка описывает арифметическое действие
-·         operand1 и operand2 - операнды, целые числа
-·         operation - арифметическое действие + - / *
-·         result - результат операции operation над operand1 и operand2
+* operand1 и operand2 - операнды, целые числа
+* operation - арифметическое действие + - / *
+* result - результат операции operation над operand1 и operand2
+---
 В файле могут содержаться любые значения полей
- 
+---
+**Требуется:**
+* Использовать язык Java
+* Реализовать юнит (JUnit) тесты арифметических действий.
+* Каждое действие должно выглядеть в отчете как отдельный тестовый сценарий
+* Результатом выполнения должен быть Yandex.Allure отчет
+* Операнды, операция и результат должны быть представлены в отчете как параметры теста
+* Проект должен быть оформлен как артефакт Maven
+* Исходный код проекта должен быть выложен на github или bitbucket
+--- 
+**Рекомендации:**
+* В качестве IDE использовать IntelliJ IDEA
+* Изучить и использовать Code Style Conventions Java
+* Изучить основной синтаксис языка и коллекции (java.util.Collections)
+* Изучить и использовать параметризированные юнит-тесты 
