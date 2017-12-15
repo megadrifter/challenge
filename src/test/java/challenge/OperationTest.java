@@ -8,6 +8,7 @@
 package challenge;      // не соответствует рекомендации (напр., com.github.megadrifter.challenge)
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -84,8 +85,8 @@ public class OperationTest {
     }
 
     // потом сам тест
-    //@DisplayName("Тест арифметических действий, запротоколированных в файле " +
-    //        "Строка {index}: Проверка операции {0} {2} {1} = {3}")
+    @DisplayName("Тест арифметических действий, запротоколированных в файле " +
+            "Строка {index}: Проверка операции {0} {2} {1} = {3}")
     @Test
     public void firstTest() {
         /* входные данные сразу преобразовать в int. Нужна ли проверка, что там
@@ -105,6 +106,7 @@ public class OperationTest {
      * @param oper
      * @return
      */
+    @Step("Строка {index}: Проверка операции {0} {2} {1} = {3}")
     private static int doOperation(int op1, int op2,String oper) {
         int result = 0;
 
